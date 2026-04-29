@@ -2,9 +2,9 @@
   "metadata": {
     "app_name": "PeptideEncyclopaedia",
     "version": "1.0.0",
-    "total_peptides": 29,
+    "total_peptides": 119,
     "categories": 8,
-    "last_updated": "2025-12-31",
+    "last_updated": "2026-04-29",
     "disclaimer": "All information is for research purposes only. Not medical advice. Consult healthcare professionals before use."
   },
   "categories": [
@@ -16,7 +16,8 @@
       "peptides": [
         "BPC-157",
         "TB-500",
-        "GHK-Cu"
+        "GHK-Cu",
+        "Palifermin"
       ]
     },
     {
@@ -28,7 +29,8 @@
         "Ipamorelin",
         "Sermorelin",
         "CJC-1295",
-        "Tesamorelin"
+        "Tesamorelin",
+        "IGF-1"
       ]
     },
     {
@@ -61,7 +63,8 @@
       "peptides": [
         "Epithalon",
         "Thymosin Alpha-1",
-        "Thymosin Beta-4"
+        "Thymosin Beta-4",
+        "Epitalon"
       ]
     },
     {
@@ -71,7 +74,8 @@
       "description": "Improve sexual function, arousal, performance",
       "peptides": [
         "PT-141",
-        "Melanotan II"
+        "Melanotan II",
+        "Bremelanotide"
       ]
     },
     {
@@ -82,7 +86,8 @@
       "peptides": [
         "GHRP-2",
         "GHRP-6",
-        "Hexarelin"
+        "Hexarelin",
+        "Follistatin"
       ]
     },
     {
@@ -102,7 +107,78 @@
       "peptides": [
         "Semaglutide",
         "Tirzepatide",
-        "Liraglutide"
+        "Liraglutide",
+        "Dulaglutide",
+        "Exenatide",
+        "Albiglutide",
+        "Lixisenatide"
+      ]
+    },
+    {
+      "id": "experimental",
+      "name": "Experimental",
+      "icon": "🧪",
+      "description": "Research compounds and experimental peptides",
+      "peptides": [
+        "Leukotriene A4 Hydrolase Inhibitor",
+        "Prostaglandin E2 Analog",
+        "Prostaglandin F2α Analog",
+        "Thromboxane A2 Mimetic",
+        "Leukotriene B4 Analog",
+        "Lipoxin A4 Analog",
+        "Resolvin E1 Analog",
+        "Protectin D1 Analog",
+        "Marinesin M1 Analog",
+        "Neuroprotectin N1 Analog",
+        "Docosahexaenoic Acid Resolvin",
+        "Eicosapentaenoic Acid Resolvin",
+        "Arachidonic Acid Metabolite",
+        "Linoleic Acid Derivative",
+        "Alpha-Linolenic Acid Derivative",
+        "Gamma-Linolenic Acid Derivative",
+        "Conjugated Linoleic Acid Derivative",
+        "Palmitoleic Acid Derivative",
+        "Stearic Acid Derivative",
+        "Oleic Acid Derivative",
+        "Palmitic Acid Derivative",
+        "Myristic Acid Derivative",
+        "Lauric Acid Derivative",
+        "Caprylic Acid Derivative",
+        "Capric Acid Derivative",
+        "Caproic Acid Derivative",
+        "Butyric Acid Derivative",
+        "Acetic Acid Derivative",
+        "Formic Acid Derivative",
+        "Propionic Acid Derivative",
+        "Valeric Acid Derivative",
+        "Heptanoic Acid Derivative",
+        "Nonanoic Acid Derivative",
+        "Undecanoic Acid Derivative",
+        "Tridecanoic Acid Derivative",
+        "Pentadecanoic Acid Derivative",
+        "Heptadecanoic Acid Derivative",
+        "Icosanoic Acid Derivative",
+        "Docosanoic Acid Derivative",
+        "Tetracosanoic Acid Derivative",
+        "Hexacosanoic Acid Derivative",
+        "Octacosanoic Acid Derivative",
+        "Triacosanoic Acid Derivative",
+        "Pexidartinib"
+      ]
+    },
+    {
+      "id": "weight_loss",
+      "name": "Weight Loss Medications",
+      "icon": "⚖️",
+      "description": "FDA-approved weight loss medications",
+      "peptides": [
+        "Semaglutide",
+        "Liraglutide",
+        "Dulaglutide",
+        "Tirzepatide",
+        "Exenatide",
+        "Albiglutide",
+        "Lixisenatide"
       ]
     }
   ],
@@ -2228,6 +2304,5136 @@
       "cycle": {
         "recommended_length_weeks": 4,
         "min_break_weeks": 8
+      }
+    },
+    "Dulaglutide": {
+      "name": "Dulaglutide",
+      "full_name": "Dulaglutide",
+      "category": "Weight Loss Medications",
+      "description": "Dulaglutide - 0.75-4.5 mg/week. FDA-Approved.",
+      "tldr": "0.75-4.5 mg/week • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 600,
+          "intermediate": 750,
+          "advanced": 1125,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 360,
+          "intermediate": 450,
+          "advanced": 675,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Exenatide": {
+      "name": "Exenatide",
+      "full_name": "Exenatide",
+      "category": "Weight Loss Medications",
+      "description": "Exenatide - 5-10 mcg/kg/day. FDA-Approved.",
+      "tldr": "5-10 mcg/kg/day • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 4,
+          "intermediate": 5,
+          "advanced": 8,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 2,
+          "intermediate": 3,
+          "advanced": 5,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Albiglutide": {
+      "name": "Albiglutide",
+      "full_name": "Albiglutide",
+      "category": "Weight Loss Medications",
+      "description": "Albiglutide - 30-60 mg/week. FDA-Approved.",
+      "tldr": "30-60 mg/week • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 24000,
+          "intermediate": 30000,
+          "advanced": 45000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 14400,
+          "intermediate": 18000,
+          "advanced": 27000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Lixisenatide": {
+      "name": "Lixisenatide",
+      "full_name": "Lixisenatide",
+      "category": "Weight Loss Medications",
+      "description": "Lixisenatide - 20-40 mcg/day. EMA-Approved.",
+      "tldr": "20-40 mcg/day • EMA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 16,
+          "intermediate": 20,
+          "advanced": 30,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 10,
+          "intermediate": 12,
+          "advanced": 18,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "good",
+      "evidence_level": "clinical",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "EMA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Carbetocin": {
+      "name": "Carbetocin",
+      "full_name": "Carbetocin",
+      "category": "Hormones",
+      "description": "Carbetocin - 10-30 mcg. FDA-Approved.",
+      "tldr": "10-30 mcg • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 8,
+          "intermediate": 10,
+          "advanced": 15,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 5,
+          "intermediate": 6,
+          "advanced": 9,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "FGF-21": {
+      "name": "FGF-21",
+      "full_name": "FGF-21",
+      "category": "Metabolic",
+      "description": "FGF-21 - 5-30 mg/day. Phase II/III.",
+      "tldr": "5-30 mg/day • Phase II/III",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 4000,
+          "intermediate": 5000,
+          "advanced": 7500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 2400,
+          "intermediate": 3000,
+          "advanced": 4500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "moderate",
+      "evidence_level": "human_trial",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Phase II/III",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Adiponectin": {
+      "name": "Adiponectin",
+      "full_name": "Adiponectin",
+      "category": "Metabolic",
+      "description": "Adiponectin - 5-20 mg/day. Investigational.",
+      "tldr": "5-20 mg/day • Investigational",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 4000,
+          "intermediate": 5000,
+          "advanced": 7500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 2400,
+          "intermediate": 3000,
+          "advanced": 4500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "moderate",
+      "evidence_level": "animal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Investigational",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "PTHrP": {
+      "name": "PTHrP",
+      "full_name": "PTHrP",
+      "category": "Bone & Muscle",
+      "description": "PTHrP - 1-5 mg/day. Investigational.",
+      "tldr": "1-5 mg/day • Investigational",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "moderate",
+      "evidence_level": "animal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Investigational",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "IGF-1": {
+      "name": "IGF-1",
+      "full_name": "IGF-1",
+      "category": "Growth",
+      "description": "IGF-1 - 30-90 mcg/kg/day. FDA-Approved.",
+      "tldr": "30-90 mcg/kg/day • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 24,
+          "intermediate": 30,
+          "advanced": 45,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 14,
+          "intermediate": 18,
+          "advanced": 27,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Kisspeptin-10": {
+      "name": "Kisspeptin-10",
+      "full_name": "Kisspeptin-10",
+      "category": "Reproductive",
+      "description": "Kisspeptin-10 - 5-20 mg/day. Investigational.",
+      "tldr": "5-20 mg/day • Investigational",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 4000,
+          "intermediate": 5000,
+          "advanced": 7500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 2400,
+          "intermediate": 3000,
+          "advanced": 4500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "moderate",
+      "evidence_level": "animal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Investigational",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Leuprolide": {
+      "name": "Leuprolide",
+      "full_name": "Leuprolide",
+      "category": "Reproductive",
+      "description": "Leuprolide - 3.75-11.25 mg/month. FDA-Approved.",
+      "tldr": "3.75-11.25 mg/month • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 3000,
+          "intermediate": 3750,
+          "advanced": 5625,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 1800,
+          "intermediate": 2250,
+          "advanced": 3375,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "LL-37": {
+      "name": "LL-37",
+      "full_name": "LL-37",
+      "category": "Antimicrobial",
+      "description": "LL-37 - 5-20 mg/day. Investigational.",
+      "tldr": "5-20 mg/day • Investigational",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 4000,
+          "intermediate": 5000,
+          "advanced": 7500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 2400,
+          "intermediate": 3000,
+          "advanced": 4500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "moderate",
+      "evidence_level": "animal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Investigational",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Afamelanotide": {
+      "name": "Afamelanotide",
+      "full_name": "Afamelanotide",
+      "category": "Pigment",
+      "description": "Afamelanotide - 10 mg/day. FDA-Approved.",
+      "tldr": "10 mg/day • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 8000,
+          "intermediate": 10000,
+          "advanced": 15000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 4800,
+          "intermediate": 6000,
+          "advanced": 9000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Endomorphin-2": {
+      "name": "Endomorphin-2",
+      "full_name": "Endomorphin-2",
+      "category": "Opioid",
+      "description": "Endomorphin-2 - 0.5-5 mcg/kg/day. Investigational.",
+      "tldr": "0.5-5 mcg/kg/day • Investigational",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 0,
+          "intermediate": 1,
+          "advanced": 1,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 0,
+          "intermediate": 1,
+          "advanced": 1,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "moderate",
+      "evidence_level": "animal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Investigational",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Dermorphin": {
+      "name": "Dermorphin",
+      "full_name": "Dermorphin",
+      "category": "Opioid",
+      "description": "Dermorphin - 0.5-5 mcg/kg/day. Investigational.",
+      "tldr": "0.5-5 mcg/kg/day • Investigational",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 0,
+          "intermediate": 1,
+          "advanced": 1,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 0,
+          "intermediate": 1,
+          "advanced": 1,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "moderate",
+      "evidence_level": "animal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Investigational",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "NPY(1-36)": {
+      "name": "NPY(1-36)",
+      "full_name": "NPY(1-36)",
+      "category": "Neuropeptide",
+      "description": "NPY(1-36) - 0.5-5 mg/day. Investigational.",
+      "tldr": "0.5-5 mg/day • Investigational",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "moderate",
+      "evidence_level": "animal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Investigational",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "KPV-23": {
+      "name": "KPV-23",
+      "full_name": "KPV-23",
+      "category": "Antimicrobial",
+      "description": "KPV-23 - 5-20 mg/day. Investigational.",
+      "tldr": "5-20 mg/day • Investigational",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 4000,
+          "intermediate": 5000,
+          "advanced": 7500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 2400,
+          "intermediate": 3000,
+          "advanced": 4500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "moderate",
+      "evidence_level": "animal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Investigational",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Thymulin": {
+      "name": "Thymulin",
+      "full_name": "Thymulin",
+      "category": "Immune",
+      "description": "Thymulin - 5-20 mg/day. Investigational.",
+      "tldr": "5-20 mg/day • Investigational",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 4000,
+          "intermediate": 5000,
+          "advanced": 7500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 2400,
+          "intermediate": 3000,
+          "advanced": 4500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "moderate",
+      "evidence_level": "animal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Investigational",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Apegrin": {
+      "name": "Apegrin",
+      "full_name": "Apegrin",
+      "category": "Immune",
+      "description": "Apegrin - 5-20 mg/day. Investigational.",
+      "tldr": "5-20 mg/day • Investigational",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 4000,
+          "intermediate": 5000,
+          "advanced": 7500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 2400,
+          "intermediate": 3000,
+          "advanced": 4500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "moderate",
+      "evidence_level": "animal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Investigational",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Osteocalcin Fragment": {
+      "name": "Osteocalcin Fragment",
+      "full_name": "Osteocalcin Fragment",
+      "category": "Bone",
+      "description": "Osteocalcin Fragment - 5-20 mg/day. Investigational.",
+      "tldr": "5-20 mg/day • Investigational",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 4000,
+          "intermediate": 5000,
+          "advanced": 7500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 2400,
+          "intermediate": 3000,
+          "advanced": 4500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "moderate",
+      "evidence_level": "animal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Investigational",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Erythropoietin": {
+      "name": "Erythropoietin",
+      "full_name": "Erythropoietin",
+      "category": "Hematopoietic",
+      "description": "Erythropoietin - 200-4000 IU/kg/week. FDA-Approved.",
+      "tldr": "200-4000 IU/kg/week • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 1000,
+          "intermediate": 2000,
+          "advanced": 5000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 600,
+          "intermediate": 1200,
+          "advanced": 3000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Darbepoetin": {
+      "name": "Darbepoetin",
+      "full_name": "Darbepoetin",
+      "category": "Hematopoietic",
+      "description": "Darbepoetin - 0.45-0.9 mcg/kg/week. FDA-Approved.",
+      "tldr": "0.45-0.9 mcg/kg/week • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 0,
+          "intermediate": 0,
+          "advanced": 1,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 0,
+          "intermediate": 0,
+          "advanced": 1,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Romiplostim": {
+      "name": "Romiplostim",
+      "full_name": "Romiplostim",
+      "category": "Hematopoietic",
+      "description": "Romiplostim - 1-10 mcg/kg/day. FDA-Approved.",
+      "tldr": "1-10 mcg/kg/day • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 1,
+          "intermediate": 1,
+          "advanced": 2,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 1,
+          "intermediate": 1,
+          "advanced": 1,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Eltrombopag": {
+      "name": "Eltrombopag",
+      "full_name": "Eltrombopag",
+      "category": "Hematopoietic",
+      "description": "Eltrombopag - 25-150 mg/day. FDA-Approved.",
+      "tldr": "25-150 mg/day • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 20000,
+          "intermediate": 25000,
+          "advanced": 37500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 12000,
+          "intermediate": 15000,
+          "advanced": 22500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Pegfilgrastim": {
+      "name": "Pegfilgrastim",
+      "full_name": "Pegfilgrastim",
+      "category": "Immune",
+      "description": "Pegfilgrastim - 6 mg/dose. FDA-Approved.",
+      "tldr": "6 mg/dose • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 4800,
+          "intermediate": 6000,
+          "advanced": 9000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 2880,
+          "intermediate": 3600,
+          "advanced": 5400,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Filgrastim": {
+      "name": "Filgrastim",
+      "full_name": "Filgrastim",
+      "category": "Immune",
+      "description": "Filgrastim - 5 mcg/kg/day. FDA-Approved.",
+      "tldr": "5 mcg/kg/day • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 4,
+          "intermediate": 5,
+          "advanced": 8,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 2,
+          "intermediate": 3,
+          "advanced": 5,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Lenograstim": {
+      "name": "Lenograstim",
+      "full_name": "Lenograstim",
+      "category": "Immune",
+      "description": "Lenograstim - 300-480 IU/kg/day. EMA-Approved.",
+      "tldr": "300-480 IU/kg/day • EMA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 1000,
+          "intermediate": 2000,
+          "advanced": 5000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 600,
+          "intermediate": 1200,
+          "advanced": 3000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "good",
+      "evidence_level": "clinical",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "EMA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Oprelvekin": {
+      "name": "Oprelvekin",
+      "full_name": "Oprelvekin",
+      "category": "Hematopoietic",
+      "description": "Oprelvekin - 20 mcg/kg/day. FDA-Approved.",
+      "tldr": "20 mcg/kg/day • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 16,
+          "intermediate": 20,
+          "advanced": 30,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 10,
+          "intermediate": 12,
+          "advanced": 18,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Anakinra": {
+      "name": "Anakinra",
+      "full_name": "Anakinra",
+      "category": "Immune",
+      "description": "Anakinra - 100 mg/day. FDA-Approved.",
+      "tldr": "100 mg/day • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 80000,
+          "intermediate": 100000,
+          "advanced": 150000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 48000,
+          "intermediate": 60000,
+          "advanced": 90000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Emapalumab": {
+      "name": "Emapalumab",
+      "full_name": "Emapalumab",
+      "category": "Immune",
+      "description": "Emapalumab - 1-3 mg/kg/dose. FDA-Approved.",
+      "tldr": "1-3 mg/kg/dose • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 1000,
+          "intermediate": 2000,
+          "advanced": 5000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 600,
+          "intermediate": 1200,
+          "advanced": 3000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Belimumab": {
+      "name": "Belimumab",
+      "full_name": "Belimumab",
+      "category": "Immune",
+      "description": "Belimumab - 10 mg/kg/week. FDA-Approved.",
+      "tldr": "10 mg/kg/week • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 1000,
+          "intermediate": 2000,
+          "advanced": 5000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 600,
+          "intermediate": 1200,
+          "advanced": 3000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Abatacept": {
+      "name": "Abatacept",
+      "full_name": "Abatacept",
+      "category": "Immune",
+      "description": "Abatacept - 125 mg/week. FDA-Approved.",
+      "tldr": "125 mg/week • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 100000,
+          "intermediate": 125000,
+          "advanced": 187500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 60000,
+          "intermediate": 75000,
+          "advanced": 112500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Tocilizumab": {
+      "name": "Tocilizumab",
+      "full_name": "Tocilizumab",
+      "category": "Immune",
+      "description": "Tocilizumab - 8 mg/kg/q2w. FDA-Approved.",
+      "tldr": "8 mg/kg/q2w • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 1000,
+          "intermediate": 2000,
+          "advanced": 5000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 600,
+          "intermediate": 1200,
+          "advanced": 3000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Sarilumab": {
+      "name": "Sarilumab",
+      "full_name": "Sarilumab",
+      "category": "Immune",
+      "description": "Sarilumab - 150-200 mg/q2w. FDA-Approved.",
+      "tldr": "150-200 mg/q2w • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 120000,
+          "intermediate": 150000,
+          "advanced": 225000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 72000,
+          "intermediate": 90000,
+          "advanced": 135000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Guselkumab": {
+      "name": "Guselkumab",
+      "full_name": "Guselkumab",
+      "category": "Immune",
+      "description": "Guselkumab - 100-200 mg/q4w. FDA-Approved.",
+      "tldr": "100-200 mg/q4w • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 80000,
+          "intermediate": 100000,
+          "advanced": 150000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 48000,
+          "intermediate": 60000,
+          "advanced": 90000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Risankizumab": {
+      "name": "Risankizumab",
+      "full_name": "Risankizumab",
+      "category": "Immune",
+      "description": "Risankizumab - 150-300 mg/q8w. FDA-Approved.",
+      "tldr": "150-300 mg/q8w • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 120000,
+          "intermediate": 150000,
+          "advanced": 225000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 72000,
+          "intermediate": 90000,
+          "advanced": 135000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Ustekinumab": {
+      "name": "Ustekinumab",
+      "full_name": "Ustekinumab",
+      "category": "Immune",
+      "description": "Ustekinumab - 45-90 mg/q8w. FDA-Approved.",
+      "tldr": "45-90 mg/q8w • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 36000,
+          "intermediate": 45000,
+          "advanced": 67500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 21600,
+          "intermediate": 27000,
+          "advanced": 40500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Secukinumab": {
+      "name": "Secukinumab",
+      "full_name": "Secukinumab",
+      "category": "Immune",
+      "description": "Secukinumab - 150-300 mg/q4w. FDA-Approved.",
+      "tldr": "150-300 mg/q4w • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 120000,
+          "intermediate": 150000,
+          "advanced": 225000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 72000,
+          "intermediate": 90000,
+          "advanced": 135000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Ixekizumab": {
+      "name": "Ixekizumab",
+      "full_name": "Ixekizumab",
+      "category": "Immune",
+      "description": "Ixekizumab - 60-80 mg/q2w. FDA-Approved.",
+      "tldr": "60-80 mg/q2w • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 48000,
+          "intermediate": 60000,
+          "advanced": 90000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 28800,
+          "intermediate": 36000,
+          "advanced": 54000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Bimekizumab": {
+      "name": "Bimekizumab",
+      "full_name": "Bimekizumab",
+      "category": "Immune",
+      "description": "Bimekizumab - 80-160 mg/q4w. FDA-Approved.",
+      "tldr": "80-160 mg/q4w • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 64000,
+          "intermediate": 80000,
+          "advanced": 120000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 38400,
+          "intermediate": 48000,
+          "advanced": 72000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Canakinumab": {
+      "name": "Canakinumab",
+      "full_name": "Canakinumab",
+      "category": "Immune",
+      "description": "Canakinumab - 150-300 mg/q4w. FDA-Approved.",
+      "tldr": "150-300 mg/q4w • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 120000,
+          "intermediate": 150000,
+          "advanced": 225000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 72000,
+          "intermediate": 90000,
+          "advanced": 135000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Rilonacept": {
+      "name": "Rilonacept",
+      "full_name": "Rilonacept",
+      "category": "Immune",
+      "description": "Rilonacept - 325 mg/kg/week. FDA-Approved.",
+      "tldr": "325 mg/kg/week • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 1000,
+          "intermediate": 2000,
+          "advanced": 5000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 600,
+          "intermediate": 1200,
+          "advanced": 3000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Pexidartinib": {
+      "name": "Pexidartinib",
+      "full_name": "Pexidartinib",
+      "category": "Experimental",
+      "description": "Pexidartinib - 20 mg/kg/day. FDA-Approved.",
+      "tldr": "20 mg/kg/day • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 1000,
+          "intermediate": 2000,
+          "advanced": 5000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 600,
+          "intermediate": 1200,
+          "advanced": 3000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Palifermin": {
+      "name": "Palifermin",
+      "full_name": "Palifermin",
+      "category": "Healing",
+      "description": "Palifermin - 60 mcg/kg/day. FDA-Approved.",
+      "tldr": "60 mcg/kg/day • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 48,
+          "intermediate": 60,
+          "advanced": 90,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 29,
+          "intermediate": 36,
+          "advanced": 54,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Interferon Alpha-2a": {
+      "name": "Interferon Alpha-2a",
+      "full_name": "Interferon Alpha-2a",
+      "category": "Immune",
+      "description": "Interferon Alpha-2a - 3-10 million IU/week. FDA-Approved.",
+      "tldr": "3-10 million IU/week • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 1000,
+          "intermediate": 2000,
+          "advanced": 5000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 600,
+          "intermediate": 1200,
+          "advanced": 3000,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Interferon Beta-1a": {
+      "name": "Interferon Beta-1a",
+      "full_name": "Interferon Beta-1a",
+      "category": "Immune",
+      "description": "Interferon Beta-1a - 250 mcg 3x/week. FDA-Approved.",
+      "tldr": "250 mcg 3x/week • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 200,
+          "intermediate": 250,
+          "advanced": 375,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 120,
+          "intermediate": 150,
+          "advanced": 225,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Interferon Gamma-1b": {
+      "name": "Interferon Gamma-1b",
+      "full_name": "Interferon Gamma-1b",
+      "category": "Immune",
+      "description": "Interferon Gamma-1b - 50-100 mcg/m2/day. FDA-Approved.",
+      "tldr": "50-100 mcg/m2/day • FDA-Approved",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 40,
+          "intermediate": 50,
+          "advanced": 75,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 24,
+          "intermediate": 30,
+          "advanced": 45,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "excellent",
+      "evidence_level": "clinical",
+      "requires_prescription": true,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "FDA-Approved",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Leukotriene A4 Hydrolase Inhibitor": {
+      "name": "Leukotriene A4 Hydrolase Inhibitor",
+      "full_name": "Leukotriene A4 Hydrolase Inhibitor",
+      "category": "Experimental",
+      "description": "Leukotriene A4 Hydrolase Inhibitor - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Prostaglandin E2 Analog": {
+      "name": "Prostaglandin E2 Analog",
+      "full_name": "Prostaglandin E2 Analog",
+      "category": "Experimental",
+      "description": "Prostaglandin E2 Analog - 0.5-2 mcg/kg/min. Experimental.",
+      "tldr": "0.5-2 mcg/kg/min • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 0,
+          "intermediate": 1,
+          "advanced": 1,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 0,
+          "intermediate": 1,
+          "advanced": 1,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Prostaglandin F2α Analog": {
+      "name": "Prostaglandin F2α Analog",
+      "full_name": "Prostaglandin F2α Analog",
+      "category": "Experimental",
+      "description": "Prostaglandin F2α Analog - 50-300 mcg. Experimental.",
+      "tldr": "50-300 mcg • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 40,
+          "intermediate": 50,
+          "advanced": 75,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 24,
+          "intermediate": 30,
+          "advanced": 45,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Thromboxane A2 Mimetic": {
+      "name": "Thromboxane A2 Mimetic",
+      "full_name": "Thromboxane A2 Mimetic",
+      "category": "Experimental",
+      "description": "Thromboxane A2 Mimetic - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Leukotriene B4 Analog": {
+      "name": "Leukotriene B4 Analog",
+      "full_name": "Leukotriene B4 Analog",
+      "category": "Experimental",
+      "description": "Leukotriene B4 Analog - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Lipoxin A4 Analog": {
+      "name": "Lipoxin A4 Analog",
+      "full_name": "Lipoxin A4 Analog",
+      "category": "Experimental",
+      "description": "Lipoxin A4 Analog - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Resolvin E1 Analog": {
+      "name": "Resolvin E1 Analog",
+      "full_name": "Resolvin E1 Analog",
+      "category": "Experimental",
+      "description": "Resolvin E1 Analog - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Protectin D1 Analog": {
+      "name": "Protectin D1 Analog",
+      "full_name": "Protectin D1 Analog",
+      "category": "Experimental",
+      "description": "Protectin D1 Analog - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Marinesin M1 Analog": {
+      "name": "Marinesin M1 Analog",
+      "full_name": "Marinesin M1 Analog",
+      "category": "Experimental",
+      "description": "Marinesin M1 Analog - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Neuroprotectin N1 Analog": {
+      "name": "Neuroprotectin N1 Analog",
+      "full_name": "Neuroprotectin N1 Analog",
+      "category": "Experimental",
+      "description": "Neuroprotectin N1 Analog - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Docosahexaenoic Acid Resolvin": {
+      "name": "Docosahexaenoic Acid Resolvin",
+      "full_name": "Docosahexaenoic Acid Resolvin",
+      "category": "Experimental",
+      "description": "Docosahexaenoic Acid Resolvin - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Eicosapentaenoic Acid Resolvin": {
+      "name": "Eicosapentaenoic Acid Resolvin",
+      "full_name": "Eicosapentaenoic Acid Resolvin",
+      "category": "Experimental",
+      "description": "Eicosapentaenoic Acid Resolvin - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Arachidonic Acid Metabolite": {
+      "name": "Arachidonic Acid Metabolite",
+      "full_name": "Arachidonic Acid Metabolite",
+      "category": "Experimental",
+      "description": "Arachidonic Acid Metabolite - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Linoleic Acid Derivative": {
+      "name": "Linoleic Acid Derivative",
+      "full_name": "Linoleic Acid Derivative",
+      "category": "Experimental",
+      "description": "Linoleic Acid Derivative - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Alpha-Linolenic Acid Derivative": {
+      "name": "Alpha-Linolenic Acid Derivative",
+      "full_name": "Alpha-Linolenic Acid Derivative",
+      "category": "Experimental",
+      "description": "Alpha-Linolenic Acid Derivative - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Gamma-Linolenic Acid Derivative": {
+      "name": "Gamma-Linolenic Acid Derivative",
+      "full_name": "Gamma-Linolenic Acid Derivative",
+      "category": "Experimental",
+      "description": "Gamma-Linolenic Acid Derivative - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Conjugated Linoleic Acid Derivative": {
+      "name": "Conjugated Linoleic Acid Derivative",
+      "full_name": "Conjugated Linoleic Acid Derivative",
+      "category": "Experimental",
+      "description": "Conjugated Linoleic Acid Derivative - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Palmitoleic Acid Derivative": {
+      "name": "Palmitoleic Acid Derivative",
+      "full_name": "Palmitoleic Acid Derivative",
+      "category": "Experimental",
+      "description": "Palmitoleic Acid Derivative - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Stearic Acid Derivative": {
+      "name": "Stearic Acid Derivative",
+      "full_name": "Stearic Acid Derivative",
+      "category": "Experimental",
+      "description": "Stearic Acid Derivative - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Oleic Acid Derivative": {
+      "name": "Oleic Acid Derivative",
+      "full_name": "Oleic Acid Derivative",
+      "category": "Experimental",
+      "description": "Oleic Acid Derivative - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Palmitic Acid Derivative": {
+      "name": "Palmitic Acid Derivative",
+      "full_name": "Palmitic Acid Derivative",
+      "category": "Experimental",
+      "description": "Palmitic Acid Derivative - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Myristic Acid Derivative": {
+      "name": "Myristic Acid Derivative",
+      "full_name": "Myristic Acid Derivative",
+      "category": "Experimental",
+      "description": "Myristic Acid Derivative - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Lauric Acid Derivative": {
+      "name": "Lauric Acid Derivative",
+      "full_name": "Lauric Acid Derivative",
+      "category": "Experimental",
+      "description": "Lauric Acid Derivative - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Caprylic Acid Derivative": {
+      "name": "Caprylic Acid Derivative",
+      "full_name": "Caprylic Acid Derivative",
+      "category": "Experimental",
+      "description": "Caprylic Acid Derivative - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Capric Acid Derivative": {
+      "name": "Capric Acid Derivative",
+      "full_name": "Capric Acid Derivative",
+      "category": "Experimental",
+      "description": "Capric Acid Derivative - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Caproic Acid Derivative": {
+      "name": "Caproic Acid Derivative",
+      "full_name": "Caproic Acid Derivative",
+      "category": "Experimental",
+      "description": "Caproic Acid Derivative - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Butyric Acid Derivative": {
+      "name": "Butyric Acid Derivative",
+      "full_name": "Butyric Acid Derivative",
+      "category": "Experimental",
+      "description": "Butyric Acid Derivative - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Acetic Acid Derivative": {
+      "name": "Acetic Acid Derivative",
+      "full_name": "Acetic Acid Derivative",
+      "category": "Experimental",
+      "description": "Acetic Acid Derivative - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Formic Acid Derivative": {
+      "name": "Formic Acid Derivative",
+      "full_name": "Formic Acid Derivative",
+      "category": "Experimental",
+      "description": "Formic Acid Derivative - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Propionic Acid Derivative": {
+      "name": "Propionic Acid Derivative",
+      "full_name": "Propionic Acid Derivative",
+      "category": "Experimental",
+      "description": "Propionic Acid Derivative - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Valeric Acid Derivative": {
+      "name": "Valeric Acid Derivative",
+      "full_name": "Valeric Acid Derivative",
+      "category": "Experimental",
+      "description": "Valeric Acid Derivative - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Heptanoic Acid Derivative": {
+      "name": "Heptanoic Acid Derivative",
+      "full_name": "Heptanoic Acid Derivative",
+      "category": "Experimental",
+      "description": "Heptanoic Acid Derivative - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Nonanoic Acid Derivative": {
+      "name": "Nonanoic Acid Derivative",
+      "full_name": "Nonanoic Acid Derivative",
+      "category": "Experimental",
+      "description": "Nonanoic Acid Derivative - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Undecanoic Acid Derivative": {
+      "name": "Undecanoic Acid Derivative",
+      "full_name": "Undecanoic Acid Derivative",
+      "category": "Experimental",
+      "description": "Undecanoic Acid Derivative - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Tridecanoic Acid Derivative": {
+      "name": "Tridecanoic Acid Derivative",
+      "full_name": "Tridecanoic Acid Derivative",
+      "category": "Experimental",
+      "description": "Tridecanoic Acid Derivative - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Pentadecanoic Acid Derivative": {
+      "name": "Pentadecanoic Acid Derivative",
+      "full_name": "Pentadecanoic Acid Derivative",
+      "category": "Experimental",
+      "description": "Pentadecanoic Acid Derivative - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Heptadecanoic Acid Derivative": {
+      "name": "Heptadecanoic Acid Derivative",
+      "full_name": "Heptadecanoic Acid Derivative",
+      "category": "Experimental",
+      "description": "Heptadecanoic Acid Derivative - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Icosanoic Acid Derivative": {
+      "name": "Icosanoic Acid Derivative",
+      "full_name": "Icosanoic Acid Derivative",
+      "category": "Experimental",
+      "description": "Icosanoic Acid Derivative - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Docosanoic Acid Derivative": {
+      "name": "Docosanoic Acid Derivative",
+      "full_name": "Docosanoic Acid Derivative",
+      "category": "Experimental",
+      "description": "Docosanoic Acid Derivative - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Tetracosanoic Acid Derivative": {
+      "name": "Tetracosanoic Acid Derivative",
+      "full_name": "Tetracosanoic Acid Derivative",
+      "category": "Experimental",
+      "description": "Tetracosanoic Acid Derivative - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Hexacosanoic Acid Derivative": {
+      "name": "Hexacosanoic Acid Derivative",
+      "full_name": "Hexacosanoic Acid Derivative",
+      "category": "Experimental",
+      "description": "Hexacosanoic Acid Derivative - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Octacosanoic Acid Derivative": {
+      "name": "Octacosanoic Acid Derivative",
+      "full_name": "Octacosanoic Acid Derivative",
+      "category": "Experimental",
+      "description": "Octacosanoic Acid Derivative - 1-5 mg/day. Experimental.",
+      "tldr": "1-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 800,
+          "intermediate": 1000,
+          "advanced": 1500,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 480,
+          "intermediate": 600,
+          "advanced": 900,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
+      }
+    },
+    "Triacosanoic Acid Derivative": {
+      "name": "Triacosanoic Acid Derivative",
+      "full_name": "Triacosanoic Acid Derivative",
+      "category": "Experimental",
+      "description": "Triacosanoic Acid Derivative - 0.5-5 mg/day. Experimental.",
+      "tldr": "0.5-5 mg/day • Experimental",
+      "mechanism": "Data from research studies. Contact healthcare provider for more information.",
+      "benefits": [],
+      "dosage": {
+        "male": {
+          "beginner": 400,
+          "intermediate": 500,
+          "advanced": 750,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female": {
+          "beginner": 240,
+          "intermediate": 300,
+          "advanced": 450,
+          "timing": [
+            {
+              "time": "As directed",
+              "description": "Follow guidelines"
+            }
+          ],
+          "frequency": "As directed"
+        },
+        "female_dose_multiplier": 0.6
+      },
+      "administration": [
+        {
+          "route": "Subcutaneous",
+          "storage": "Store as directed"
+        }
+      ],
+      "side_effects": [],
+      "safety_rating": "low",
+      "evidence_level": "anecdotal",
+      "requires_prescription": false,
+      "sources": [
+        {
+          "pmid": "",
+          "title": "Experimental",
+          "confidence": "medium"
+        }
+      ],
+      "cycle": {
+        "recommended_length_weeks": 12,
+        "min_break_weeks": 4
       }
     }
   }
