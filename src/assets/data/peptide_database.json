@@ -1,0 +1,1633 @@
+{
+  "metadata": {
+    "app_name": "PeptideEncyclopaedia",
+    "version": "1.0.0",
+    "total_peptides": 21,
+    "categories": 8,
+    "last_updated": "2025-12-31",
+    "disclaimer": "All information is for research purposes only. Not medical advice. Consult healthcare professionals before use."
+  },
+  "categories": [
+    {
+      "id": "healing_regenerative",
+      "name": "Healing & Regenerative",
+      "icon": "🩹",
+      "description": "Accelerate tissue repair, wound healing, reduce inflammation",
+      "peptides": [
+        "BPC-157",
+        "TB-500",
+        "GHK-Cu"
+      ]
+    },
+    {
+      "id": "growth_hormone_secretagogues",
+      "name": "Growth Hormone Secretagogues",
+      "icon": "💪",
+      "description": "Stimulate natural GH release from pituitary",
+      "peptides": [
+        "Ipamorelin",
+        "Sermorelin",
+        "CJC-1295",
+        "Tesamorelin"
+      ]
+    },
+    {
+      "id": "fat_loss_metabolism",
+      "name": "Fat Loss & Metabolism",
+      "icon": "🔥",
+      "description": "Target fat loss, increase metabolic rate",
+      "peptides": [
+        "AOD-9604",
+        "HGH Fragment 176-191"
+      ]
+    },
+    {
+      "id": "cognitive_nootropics",
+      "name": "Cognitive & Nootropic",
+      "icon": "🧠",
+      "description": "Enhance memory, focus, neuroprotection",
+      "peptides": [
+        "Cerebrolysin",
+        "P21",
+        "Semax",
+        "Selank"
+      ]
+    },
+    {
+      "id": "anti_aging_rejuvenation",
+      "name": "Anti-Aging & Rejuvenation",
+      "icon": "⭐",
+      "description": "Cellular repair, telomere support, longevity",
+      "peptides": [
+        "Epithalon",
+        "Thymosin Alpha-1",
+        "Thymosin Beta-4"
+      ]
+    },
+    {
+      "id": "sexual_health",
+      "name": "Sexual Health & Libido",
+      "icon": "❤️",
+      "description": "Improve sexual function, arousal, performance",
+      "peptides": [
+        "PT-141",
+        "Melanotan II"
+      ]
+    },
+    {
+      "id": "muscle_growth_performance",
+      "name": "Muscle Growth & Performance",
+      "icon": "🏋️",
+      "description": "Increase muscle mass, strength, recovery",
+      "peptides": [
+        "GHRP-2",
+        "GHRP-6",
+        "Hexarelin"
+      ]
+    },
+    {
+      "id": "hair_growth",
+      "name": "Hair Growth & Scalp Health",
+      "icon": "💇",
+      "description": "Promote hair growth and follicle health",
+      "peptides": [
+        "GHK-Cu"
+      ]
+    }
+  ],
+  "peptides": {
+    "BPC-157": {
+      "name": "BPC-157",
+      "full_name": "Body Protection Compound-157",
+      "category": "healing_regenerative",
+      "chemical": {
+        "type": "Pentadecapeptide",
+        "sequence": "Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val",
+        "length": 15,
+        "origin": "Derived from human gastric juice protein",
+        "year_discovered": 1991
+      },
+      "mechanism": {
+        "primary": "Promotes angiogenesis, accelerates healing through multiple pathways including VEGF and FGF upregulation",
+        "pathways": [
+          "VEGF upregulation",
+          "FGF pathway enhancement",
+          "Nitric oxide synthesis"
+        ],
+        "cellular": [
+          "Fibroblast migration",
+          "Collagen synthesis",
+          "Endothelial cell proliferation"
+        ]
+      },
+      "benefits": [
+        "Gut healing / intestinal barrier repair",
+        "Joint, tendon and ligament repair",
+        "Wound healing acceleration",
+        "Reduces scar tissue",
+        "Liver protection and regeneration",
+        "May improve erectile function (vascular repair)"
+      ],
+      "administration": {
+        "routes": [
+          "Oral enteric-coated",
+          "Subcutaneous injection",
+          "Topical spray/cream"
+        ],
+        "storage": "Refrigerated 2-8°C; stable 1-2 months reconstituted",
+        "injection_sites": [
+          "Abdomen",
+          "Thigh",
+          "Affected area"
+        ]
+      },
+      "dosage": {
+        "male": {
+          "oral": "250-500 mcg twice daily",
+          "subcut": "250-500 mcg 2x daily",
+          "cycle_length": "4-12 weeks continuous"
+        },
+        "female": {
+          "oral": "250-500 mcg twice daily",
+          "subcut": "250-500 mcg 2x daily",
+          "special_notes": "Lower doses (250 mcg) often adequate"
+        }
+      },
+      "side_effects": {
+        "common": [
+          "Mild transient headache",
+          "Fatigue (first 1-3 days)"
+        ],
+        "rare": [
+          "Dizziness",
+          "Taste alterations"
+        ]
+      },
+      "legal": {
+        "US": "Research chemical - NOT FDA approved",
+        "EU": "Research chemical",
+        "notes": "Oral supplements sold in some countries; injectable form strictly research-only"
+      },
+      "safety": "Excellent safety profile; high therapeutic index",
+      "half_life": "~3-5 minutes (blood); tissue retention longer",
+      "stacks": [
+        {
+          "combo": "BPC-157 + TB-500",
+          "synergy": "Comprehensive healing"
+        },
+        {
+          "combo": "BPC-157 + GHK-Cu topical",
+          "synergy": "Skin/wound healing"
+        }
+      ]
+    },
+    "TB-500": {
+      "name": "TB-500",
+      "full_name": "Thymosin Beta-4 (synthetic)",
+      "category": "healing_regenerative",
+      "chemical": {
+        "type": "43-amino acid peptide",
+        "origin": "Synthetic analog of natural thymosin beta-4",
+        "year_discovered": 1981,
+        "molecular_weight": "~4964 Da"
+      },
+      "mechanism": {
+        "primary": "Actin-binding peptide that promotes cell migration, angiogenesis, wound healing",
+        "actions": [
+          "Binds G-actin",
+          "Stimulates VEGF",
+          "Anti-inflammatory cytokine modulation",
+          "Epithelial cell migration"
+        ]
+      },
+      "benefits": [
+        "Accelerates wound healing (acute and chronic)",
+        "Muscle/ligament/tendon repair",
+        "Reduces scar tissue/fibrosis",
+        "Enhances flexibility",
+        "Cardiovascular protection",
+        "Corneal healing"
+      ],
+      "administration": {
+        "routes": [
+          "Subcutaneous injection",
+          "Intramuscular injection"
+        ],
+        "storage": "Refrigerated; reconstituted stable 3-6 months frozen",
+        "half_life": "Long (~40 hours serum, tissue retention longer)"
+      },
+      "dosage": {
+        "male": {
+          "loading": "5-10 mg weekly (weeks 1-2)",
+          "maintenance": "5 mg weekly"
+        },
+        "female": {
+          "loading": "5 mg weekly",
+          "maintenance": "2.5-5 mg weekly",
+          "notes": "Smaller individuals may start at 2.5 mg"
+        }
+      },
+      "side_effects": {
+        "common": [
+          "Mild lethargy/fatigue (first 24-48h)"
+        ],
+        "rare": [
+          "Headache",
+          "Mild nausea"
+        ]
+      },
+      "legal": {
+        "US": "Research chemical",
+        "EU": "Research chemical",
+        "notes": "Not approved for human therapeutic use anywhere"
+      },
+      "safety": "Very well-tolerated; long safety record"
+    },
+    "GHK-Cu": {
+      "name": "GHK-Cu",
+      "full_name": "Glycyl-Histidyl-Lysine-Copper Complex",
+      "category": "healing_regenerative",
+      "chemical": {
+        "type": "Tripeptide-Copper (Cu2+) complex",
+        "sequence": "Gly-His-Lys",
+        "length": 3,
+        "origin": "Natural peptide in human plasma (declines with age)",
+        "year_discovered": 1973
+      },
+      "mechanism": {
+        "primary": "Copper-dependent peptide stimulating collagen synthesis and tissue repair",
+        "actions": [
+          "Increases cellular copper uptake",
+          "Upregulates collagen and GAG synthesis",
+          "Antioxidant via Cu/Zn-SOD",
+          "Wound healing and angiogenesis"
+        ]
+      },
+      "benefits": [
+        "Skin rejuvenation and anti-aging",
+        "Wound healing acceleration",
+        "Hair growth stimulation",
+        "Anti-inflammatory",
+        "Antioxidant protection",
+        "Nerve regeneration support"
+      ],
+      "administration": {
+        "routes": [
+          "Topical cream/serum",
+          "Subcutaneous injection",
+          "Oral supplement"
+        ],
+        "topical_conc": "0.5-2 mg/mL common",
+        "mixing": "Bacteriostatic water for injectable"
+      },
+      "dosage": {
+        "male": {
+          "topical": "1-2 applications daily",
+          "subcut": "1-2 mg daily"
+        },
+        "female": {
+          "topical": "1-2 applications daily",
+          "subcut": "0.5-2 mg daily"
+        }
+      },
+      "side_effects": {
+        "common": [
+          "Mild skin irritation (topical)"
+        ],
+        "rare": [
+          "Transient redness (injection)"
+        ]
+      },
+      "legal": {
+        "US": "GRAS cosmetic ingredient",
+        "EU": "Approved cosmetic ingredient",
+        "notes": "Widely available in skincare; injectable sold as research chemical"
+      },
+      "safety": "Excellent - one of most-studied and safest peptides"
+    },
+    "Ipamorelin": {
+      "name": "Ipamorelin",
+      "full_name": "Ipamorelin",
+      "category": "growth_hormone_secretagogues",
+      "chemical": {
+        "type": "Growth Hormone-Releasing Peptide (GHRP)",
+        "sequence": "Aib-His-D-Trp-Ala-Trp-D-Phe-Lys-NH2",
+        "length": 7,
+        "origin": "Synthetic; developed by Helsinn Healthcare",
+        "year_discovered": 1998,
+        "modifications": [
+          "Aib",
+          "D-amino acids"
+        ]
+      },
+      "mechanism": {
+        "primary": "Selective ghrelin receptor (GHSR) agonist stimulating pulsatile GH release",
+        "selectivity": "Most selective GHRP - minimal cortisol/prolactin increase",
+        "synergy": "Works synergistically with GHRH analogs"
+      },
+      "benefits": [
+        "Increased GH and IGF-1",
+        "Fat loss and improved body composition",
+        "Lean muscle gain and recovery",
+        "Enhanced sleep quality (deep sleep)",
+        "Skin elasticity improvement",
+        "Anti-aging",
+        "Bone density support"
+      ],
+      "administration": {
+        "routes": [
+          "Subcutaneous injection only"
+        ],
+        "timing": "Fasted state - wait 30-60 min before eating",
+        "sites": [
+          "Abdomen",
+          "Thigh",
+          "Rear deltoid"
+        ],
+        "storage": "Refrigerated; stable 1-2 months",
+        "mixing": "Bacteriostatic water"
+      },
+      "dosage": {
+        "male": {
+          "beginner": "100-150 mcg 2x daily (AM fasted + pre-bed)",
+          "intermediate": "200-300 mcg 2x daily",
+          "advanced": "300-500 mcg 2-3x daily (add post-workout)"
+        },
+        "female": {
+          "beginner": "50-100 mcg 2x daily",
+          "intermediate": "100-200 mcg 2x daily",
+          "notes": "30-50% lower dose vs males, start low"
+        }
+      },
+      "side_effects": {
+        "common": [
+          "Increased hunger (ghrelin effect)",
+          "Mild water retention (ankles)",
+          "Transient fatigue (first 1-2 weeks)"
+        ],
+        "high_dose": [
+          "Numbness/tingling",
+          "Headache"
+        ],
+        "rare": [
+          "Carpal tunnel symptoms"
+        ]
+      },
+      "stacks": [
+        {
+          "combo": "Ipamorelin + CJC-1295 (no DAC)",
+          "synergy": "Complementary - pulse (Ipamorelin) + baseline (CJC)",
+          "popularity": "Most popular stack"
+        },
+        {
+          "combo": "Ipamorelin + Sermorelin",
+          "synergy": "GHRH + GHRP synergy"
+        }
+      ],
+      "legal": {
+        "US": "Research chemical",
+        "EU": "Research chemical",
+        "notes": "Prescription-only for legitimate research"
+      },
+      "safety": "Very good - lowest side effect profile among GHRPs",
+      "half_life": "~2 hours"
+    },
+    "Sermorelin": {
+      "name": "Sermorelin",
+      "full_name": "Sermorelin Acetate",
+      "category": "growth_hormone_secretagogues",
+      "chemical": {
+        "type": "Growth Hormone-Releasing Hormone (GHRH) analog",
+        "sequence": "His-D-Trp-Ala-Trp-D-Phe-Lys-NH2 (29-amino acid fragment of natural 44-mer)",
+        "origin": "Synthetic fragment of natural GHRH"
+      },
+      "mechanism": {
+        "primary": "GHRH receptor agonist stimulating natural pulsatile GH release from pituitary",
+        "actions": [
+          "Activates GHRH receptors",
+          "Promotes physiological GH pulses",
+          "No receptor downregulation",
+          "Minimal effect on appetite/cortisol"
+        ],
+        "pituitary": "Requires functional pituitary gland"
+      },
+      "benefits": [
+        "Natural GH elevation (pulsatile pattern)",
+        "Improved deep sleep (stages 3/4)",
+        "Skin rejuvenation and elasticity",
+        "Visceral fat loss",
+        "Enhanced recovery and energy",
+        "Cognitive clarity"
+      ],
+      "administration": {
+        "routes": [
+          "Subcutaneous injection"
+        ],
+        "timing": "Fasted morning OR pre-bed (nocturnal GH pulse alignment)",
+        "storage": "Refrigerated",
+        "mixing": "Bacteriostatic water"
+      },
+      "dosage": {
+        "male": {
+          "low": "500 mcg once daily",
+          "medium": "1000 mcg once daily (most common)",
+          "high": "1000 mcg 2x daily (total 2 mg)"
+        },
+        "female": {
+          "low": "250-500 mcg once daily",
+          "medium": "500-750 mcg once daily",
+          "high": "750-1000 mcg once daily",
+          "notes": "30-50% dose reduction typical"
+        }
+      },
+      "side_effects": {
+        "common": [
+          "Mild injection site discomfort",
+          "Transient flushing/warm sensation"
+        ],
+        "positive": [
+          "Improved sleep quality (beneficial)"
+        ],
+        "rare": [
+          "Mild nausea",
+          "Dizziness"
+        ],
+        "contraindications": [
+          "Active malignancy",
+          "Pituitary tumors"
+        ]
+      },
+      "stacks": [
+        {
+          "combo": "Sermorelin + Ipamorelin",
+          "synergy": "GHRH + GHRP enhances both pulse frequency and amplitude"
+        }
+      ],
+      "legal": {
+        "US": "FDA APPROVED for pediatric GH deficiency (Geref)",
+        "adult_use": "Off-label use for adult GH deficiency requires prescription",
+        "EU": "Approved in some countries"
+      },
+      "safety": "Excellent - mimics natural physiology, no receptor desensitization",
+      "half_life": "~8-12 minutes (blood); GH pulse effect lasts hours",
+      "note": "One of most-studied GH-releasing peptides with extensive safety data"
+    },
+    "CJC-1295": {
+      "name": "CJC-1295",
+      "full_name": "CJC-1295",
+      "category": "growth_hormone_secretagogues",
+      "chemical": {
+        "type": "Long-acting GHRH analog",
+        "variants": [
+          {
+            "variant": "CJC-1295 without DAC",
+            "half_life": "~30 minutes",
+            "duration": "Few hours",
+            "use": "Daily or 2-3x weekly"
+          },
+          {
+            "variant": "CJC-1295 with DAC",
+            "half_life": "6-8 days",
+            "duration": "Week+",
+            "use": "Once weekly"
+          }
+        ],
+        "modifications": "Drug Affinity Complex (DAC) extends half-life by albumin binding",
+        "origin": "Developed by ConjuChem"
+      },
+      "mechanism": {
+        "primary": "Modified GHRH providing sustained GH and IGF-1 elevation",
+        "actions": [
+          "Stimulates pituitary GH release",
+          "Maintains steady-state hormone levels",
+          "With DAC: prolonged receptor occupancy"
+        ],
+        "warning": "With DAC may cause prolonged IGF-1 elevation; some concerns about long-term receptor desensitization"
+      },
+      "benefits": [
+        "Sustained elevation of GH and IGF-1",
+        "Fat loss and improved body composition",
+        "Increased lean muscle mass and strength",
+        "Enhanced recovery",
+        "Improved sleep quality",
+        "Anti-aging effects"
+      ],
+      "administration": {
+        "routes": [
+          "Subcutaneous injection"
+        ],
+        "without_DAC_timing": "Evening (mimics natural nocturnal pulse)",
+        "storage": "Refrigerated",
+        "mixing": "Bacteriostatic water"
+      },
+      "dosage": {
+        "male": {
+          "without_DAC": {
+            "dose": "2000-3000 mcg",
+            "frequency": "2-3x weekly",
+            "timing": "Evenings"
+          },
+          "with_DAC": {
+            "dose": "1000-2000 mcg",
+            "frequency": "once weekly",
+            "notes": "Same day each week"
+          }
+        },
+        "female": {
+          "without_DAC": {
+            "dose": "1000-2000 mcg",
+            "frequency": "2x weekly",
+            "notes": "Start at lower end"
+          },
+          "with_DAC": {
+            "dose": "500-1000 mcg",
+            "frequency": "once weekly",
+            "max": "Do not exceed 1 mg"
+          }
+        }
+      },
+      "side_effects": {
+        "common": [
+          "Mild water retention (ankles, fingers)",
+          "Increased appetite",
+          "Joint stiffness (high doses)"
+        ],
+        "dose_dependent": [
+          "Carpal tunnel symptoms",
+          "Numbness/tingling",
+          "Elevated blood pressure (rare)"
+        ],
+        "long_term_concerns": [
+          "Potential insulin resistance with DAC variant",
+          "Prolactin elevation (monitor)"
+        ]
+      },
+      "stacks": [
+        {
+          "combo": "CJC-1295 (no DAC) + Ipamorelin",
+          "synergy": "Gold standard stack - baseline GH + pulse stimulation",
+          "notes": "Most popular combination"
+        }
+      ],
+      "legal": {
+        "US": "Research chemical",
+        "EU": "Research chemical",
+        "notes": "DAC variant more restricted due to long half-life concerns"
+      },
+      "safety": "Good - provides stable GH profile; monitor blood markers",
+      "half_life": {
+        "without_DAC": "~30 minutes",
+        "with_DAC": "6-8 days"
+      },
+      "note": "Without DAC usually preferred for better control and lower side effects"
+    },
+    "Tesamorelin": {
+      "name": "Tesamorelin",
+      "full_name": "Tesamorelin Acetate",
+      "category": "growth_hormone_secretagogues",
+      "chemical": {
+        "type": "GHRH analog with fatty acid modification",
+        "modifications": "Hexanoyl group at N-terminus extends half-life",
+        "origin": "Synthetic by Theratechnologies"
+      },
+      "mechanism": {
+        "primary": "GHRH receptor agonist with prolonged half-life (~26 hours), specifically reduces visceral adipose tissue",
+        "actions": [
+          "Stimulates GH release",
+          "Reduces visceral fat (primary FDA indication)",
+          "Increases IGF-1",
+          "Improves lipid profile"
+        ]
+      },
+      "benefits": [
+        "Significant reduction in visceral abdominal fat (primary)",
+        "Increases IGF-1 levels",
+        "Improves lipid profile (lowers triglycerides)",
+        "Body composition improvement",
+        "FDA approved for HIV-associated lipodystrophy"
+      ],
+      "administration": {
+        "routes": [
+          "Subcutaneous injection"
+        ],
+        "timing": "Daily, preferably in evening",
+        "storage": "Refrigerated",
+        "mixing": "Reconstitute with bacteriostatic water"
+      },
+      "dosage": {
+        "male": {
+          "prescription": {
+            "dose": "2 mg daily",
+            "max_duration": "6 weeks (FDA label)"
+          },
+          "off_label": {
+            "dose": "1-2 mg",
+            "frequency": "5-7 days/week",
+            "notes": "Used beyond 6 weeks off-label"
+          }
+        },
+        "female": {
+          "prescription": {
+            "dose": "1 mg daily"
+          },
+          "off_label": "1 mg 5-7 days/week"
+        }
+      },
+      "side_effects": {
+        "common": [
+          "Injection site reactions",
+          "Mild nausea",
+          "Muscle pain",
+          "Joint pain"
+        ],
+        "metabolic": [
+          "Glucose intolerance (monitor)",
+          "Elevated HbA1c (long-term/high dose)"
+        ],
+        "rare": [
+          "Allergic reactions",
+          "Headache"
+        ]
+      },
+      "stacks": [
+        {
+          "combo": "Tesamorelin + Ipamorelin",
+          "notes": "Potent GH stack - use cautiously"
+        }
+      ],
+      "legal": {
+        "US": "FDA APPROVED (Egrifta) - prescription only for HIV lipodystrophy",
+        "EU": "Approved in some countries",
+        "status_note": "Most regulated and studied peptide on market; requires prescription"
+      },
+      "safety": "Good - most extensive clinical trial data among peptides",
+      "half_life": "~26 hours",
+      "prescription": "Yes - in US for legitimate diagnosis",
+      "note": "Only FDA-approved peptide for fat loss"
+    },
+    "AOD-9604": {
+      "name": "AOD-9604",
+      "full_name": "Advanced Obesity Drug 9604",
+      "category": "fat_loss_metabolism",
+      "chemical": {
+        "type": "Modified HGH fragment",
+        "sequence": "Modified HGH amino acids 176-191",
+        "modifications": "Tyrosine-to-Phenylalanine substitution at position 177 prevents diabetogenic effects",
+        "origin": "Developed by Monash University (Australia)",
+        "year_discovered": "1990s"
+      },
+      "mechanism": {
+        "primary": "HGH fragment with selective lipolytic activity only",
+        "actions": [
+          "Stimulates lipolysis (fat breakdown)",
+          "Inhibits lipogenesis (fat storage)",
+          "Improves lipid metabolism",
+          "Increases fat metabolism"
+        ],
+        "vs_HGH": "Unlike full HGH - no IGF-1 elevation, no blood sugar disruption, no anabolic effects on muscle"
+      },
+      "benefits": [
+        "Targeted fat loss (especially abdominal/visceral)",
+        "Improves lipid profile (lowers LDL and triglycerides)",
+        "Increases metabolic rate",
+        "No impact on insulin or blood glucose",
+        "Anti-obesity effects"
+      ],
+      "administration": {
+        "routes": [
+          "Subcutaneous injection"
+        ],
+        "timing": "Morning on empty stomach",
+        "cycle_length": "12 weeks on, 4 weeks off",
+        "storage": "Refrigerated; lyophilized stable for years"
+      },
+      "dosage": {
+        "male": {
+          "low": "150 mcg daily (AM fasted)",
+          "standard": "300 mcg daily (AM fasted)",
+          "high": "500 mcg daily",
+          "cycle": "12 weeks on, 4 weeks off"
+        },
+        "female": {
+          "low": "150 mcg daily",
+          "standard": "150-300 mcg daily",
+          "high": "300 mcg daily"
+        }
+      },
+      "side_effects": {
+        "common": [
+          "Mild headache",
+          "Injection site irritation"
+        ],
+        "rare": [
+          "Transient flushing",
+          "Mild dizziness"
+        ]
+      },
+      "legal": {
+        "US": "Research chemical",
+        "EU": "Research chemical",
+        "notes": "Marketed as 'fat loss peptide' in some places"
+      },
+      "safety": "Very good - lacks metabolic side effects of full growth hormone",
+      "half_life": "~4-5 hours"
+    },
+    "HGH Fragment 176-191": {
+      "name": "HGH Fragment 176-191",
+      "full_name": "Growth Hormone Fragment 176-191",
+      "category": "fat_loss_metabolism",
+      "chemical": {
+        "type": "HGH C-terminal fragment",
+        "sequence": "Amino acids 176-191 of human growth hormone",
+        "notes": "Often same compound as AOD-9604 (slight variations possible between batches)"
+      },
+      "mechanism": {
+        "primary": "HGH fragment mimicking lipolytic region only",
+        "actions": [
+          "Promotes fat breakdown",
+          "Inhibits fat storage",
+          "No glucose metabolism effect"
+        ],
+        "vs_HGH": "No anabolic or glucose effects - pure fat metabolism"
+      },
+      "benefits": [
+        "Fat loss (especially stubborn areas)",
+        "Improved lipid profile"
+      ],
+      "administration": {
+        "routes": [
+          "Subcutaneous injection"
+        ],
+        "timing": "Morning fasted or pre-cardio",
+        "frequency": "Daily or 5-6 days/week"
+      },
+      "dosage": {
+        "male": "250-500 mcg daily (AM fasted)",
+        "female": "150-300 mcg daily (AM fasted)"
+      },
+      "legal": "Research chemical",
+      "safety": "Good - minimal systemic effects",
+      "half_life": "~4-5 hours",
+      "notes": "Considered nearly identical to AOD-9604"
+    },
+    "Cerebrolysin": {
+      "name": "Cerebrolysin",
+      "full_name": "Cerebrolysin",
+      "category": "cognitive_nootropics",
+      "chemical": {
+        "type": "Peptide mixture (not single compound)",
+        "components": "Mixture of ~20 neurotrophic peptides derived from porcine brain",
+        "key_peptides": [
+          "BDNF fragments",
+          "NGF fragments",
+          "IGF-1",
+          "NT-3",
+          "NT-4/5"
+        ],
+        "origin": "Porcine brain-derived neurotrophic cocktail"
+      },
+      "mechanism": {
+        "primary": "Complex neurotrophic and neuroprotective peptide preparation",
+        "actions": [
+          "Stimulates neurogenesis and neuronal survival",
+          "Protects against neurotoxicity and oxidative stress",
+          "Enhances synaptic plasticity and long-term potentiation",
+          "Increases BDNF and NGF activity in CNS",
+          "Reduces apoptosis and excitotoxicity"
+        ]
+      },
+      "benefits": [
+        "Cognitive enhancement (memory, focus, learning)",
+        "Neuroprotection (stroke, TBI, hypoxia recovery)",
+        "Alzheimer's disease and dementia support",
+        "Depression and anxiety reduction",
+        "Enhances brain plasticity",
+        "Post-surgical cognitive recovery"
+      ],
+      "administration": {
+        "routes": [
+          "Intramuscular injection",
+          "Intravenous infusion (medical only)"
+        ],
+        "IM_max_per_site": "2 mL",
+        "IV_requirement": "Medical supervision only",
+        "cycle": "10-20 days on, 10-30 days off"
+      },
+      "dosage": {
+        "male": {
+          "IM_cognitive": {
+            "dose": "5-10 mL",
+            "frequency": "2-3x weekly",
+            "duration": "10-20 days cycle"
+          },
+          "IV_neuroprotection": {
+            "dose": "10-20 mL daily",
+            "setting": "Hospital/clinic"
+          }
+        },
+        "female": {
+          "IM_cognitive": {
+            "dose": "5 mL",
+            "frequency": "2-3x weekly",
+            "duration": "10-20 days"
+          }
+        }
+      },
+      "side_effects": {
+        "common": [
+          "Mild injection site pain",
+          "Transient headache"
+        ],
+        "rare": [
+          "Allergic reactions",
+          "Dizziness",
+          "Nausea"
+        ],
+        "contraindications": [
+          "Severe renal impairment",
+          "Known hypersensitivity"
+        ]
+      },
+      "stacks": [
+        {
+          "combo": "Cerebrolysin + Semax",
+          "synergy": "Neurotrophic + nootropic enhancement"
+        }
+      ],
+      "legal": {
+        "US": "Not FDA approved - requires special access program",
+        "EU": "Approved for stroke/dementia in Austria, Germany, Russia",
+        "RU": "Available as prescription medication"
+      },
+      "safety": "Good - decades of clinical use in Europe; monitor for allergies",
+      "half_life": "Variable (complex mixture)",
+      "notes": "Most studied nootropic peptide with hundreds of clinical trials"
+    },
+    "P21": {
+      "name": "P21",
+      "full_name": "P21 Peptide (NGF mimetic)",
+      "category": "cognitive_nootropics",
+      "chemical": {
+        "type": "Synthetic neurotrophic peptide",
+        "origin": "Synthetic analog of nerve growth factor (NGF) fragment",
+        "notes": "Less common peptide, limited availability"
+      },
+      "mechanism": {
+        "primary": "Mimics nerve growth factor activity",
+        "actions": [
+          "Promotes neuronal growth and survival",
+          "Enhances neuroplasticity",
+          "May support myelin repair"
+        ]
+      },
+      "benefits": [
+        "Neuroprotection",
+        "Cognitive enhancement",
+        "Neurogenesis support",
+        "Myelin repair support"
+      ],
+      "administration": "Subcutaneous injection",
+      "dosage": {
+        "male": "300-600 mcg daily",
+        "female": "200-500 mcg daily"
+      },
+      "side_effects": {
+        "common": [],
+        "rare": [
+          "Mild injection site irritation"
+        ]
+      },
+      "legal": {
+        "US": "Research chemical",
+        "availability": "Limited - specialized suppliers only"
+      },
+      "safety": "Limited data - use with caution"
+    },
+    "Semax": {
+      "name": "Semax",
+      "full_name": "Semax",
+      "category": [
+        "cognitive_nootropics",
+        "fat_loss_metabolism"
+      ],
+      "chemical": {
+        "type": "ACTH (4-10) fragment analog",
+        "sequence": "Met-Glu-His-Phe-Arg-Trp-Gly-Lys-Pro-Val-Gly-Lys-Lys-Arg-Arg-Pro-Val-Lys-Val-Tyr-Pro-Asn-Gly-Ala-Glu-Asp-Glu-Ser-Pro-Glu-Gly",
+        "origin": "Russian nootropic development",
+        "year_discovered": "1990s",
+        "modifications": "C-terminal extended Met-enkephalin fragment"
+      },
+      "mechanism": {
+        "primary": "ACTH fragment with potent nootropic and neuroprotective effects",
+        "actions": [
+          "Upregulates BDNF expression in brain",
+          "Enhances memory consolidation and retrieval",
+          "Protects neurons against hypoxia/ischemia",
+          "Modulates acetylcholine and serotonin pathways",
+          "Reduces neuroinflammation"
+        ],
+        "vs_NGF": "Does not bind NGF directly - modulates related pathways"
+      },
+      "benefits": [
+        "Memory and learning enhancement",
+        "Focus and concentration improvement",
+        "Neuroprotection (stroke, TBI recovery)",
+        "Post-concussion syndrome support",
+        "Mood stabilization and anxiety reduction",
+        "Mild fat loss/metabolic effects"
+      ],
+      "administration": {
+        "routes": [
+          "Intranasal spray (preferred)",
+          "Subcutaneous injection"
+        ],
+        "nasal_notes": "High bioavailability via nasal mucosa",
+        "spray_dose": "100-200 mcg per spray",
+        "storage": "Refrigerated"
+      },
+      "dosage": {
+        "male": {
+          "nasal": {
+            "dose": "100-200 mcg per nostril",
+            "frequency": "2-3x daily",
+            "total_daily": "200-600 mcg"
+          },
+          "injection": {
+            "dose": "200-300 mcg",
+            "frequency": "daily or 2x daily"
+          }
+        },
+        "female": {
+          "nasal": {
+            "dose": "100 mcg per nostril",
+            "frequency": "2x daily",
+            "total_daily": "200-400 mcg"
+          },
+          "injection": {
+            "dose": "100-200 mcg",
+            "frequency": "daily"
+          }
+        }
+      },
+      "side_effects": {
+        "common": [
+          "Mild nasal irritation (spray)"
+        ],
+        "rare": [
+          "Transient headache",
+          "Anxiety or restlessness (high dose/bad timing)"
+        ],
+        "avoid": [
+          "Late-day dosing - may cause insomnia"
+        ]
+      },
+      "stacks": [
+        {
+          "combo": "Semax + Cerebrolysin",
+          "synergy": "Complementary neurotrophic approaches"
+        }
+      ],
+      "legal": {
+        "US": "Research chemical",
+        "EU": "Research chemical",
+        "RU": "Available over-counter as nootropic in Russia"
+      },
+      "safety": "Very good - decades of use in Russia with excellent safety profile",
+      "half_life": "~10-30 minutes (blood); CNS effects last hours",
+      "notes": "One of most popular and well-researched nootropic peptides"
+    },
+    "Selank": {
+      "name": "Selank",
+      "full_name": "Selank (TP-7)",
+      "category": "cognitive_nootropics",
+      "chemical": {
+        "type": "Tuftsin analog",
+        "sequence": "Lys-Arg-Pro-Pro-Gly-Phe-Ser-Pro-Phe-Arg",
+        "origin": "Russian peptide derived from tuftsin",
+        "notes": "Tuftsin = natural immune peptide, Selank is stabilized version"
+      },
+      "mechanism": {
+        "primary": "Anxiolytic and nootropic peptide with GABAergic modulation",
+        "actions": [
+          "Modulates GABA_A receptors (anxiolytic)",
+          "Reduces anxiety without sedation",
+          "Improves focus and mental clarity",
+          "Enhances memory consolidation",
+          "Immunomodulatory effects"
+        ],
+        "note": "Does not cause tolerance or dependency"
+      },
+      "benefits": [
+        "Anxiety reduction",
+        "Improved focus and mental clarity",
+        "Better sleep quality (non-sedating)",
+        "Mood stabilization",
+        "Mild anti-depressive effects",
+        "Enhanced learning capacity"
+      ],
+      "administration": {
+        "routes": [
+          "Intranasal spray (strongly preferred)",
+          "Subcutaneous injection"
+        ],
+        "nasal_dose": "1 spray (~75 mcg) = typical dose",
+        "preferred": "Nasal for convenience and absorption"
+      },
+      "dosage": {
+        "male": {
+          "nasal": "100-300 mcg daily (1-4 sprays divided)"
+        },
+        "female": {
+          "nasal": "75-200 mcg daily (1-3 sprays)",
+          "notes": "Often lower dose sufficient"
+        }
+      },
+      "side_effects": {
+        "common": [
+          "Mild nasal irritation"
+        ],
+        "rare": [
+          "Fatigue",
+          "Sleepiness if dose too high"
+        ],
+        "none": [
+          "No dependency or withdrawal"
+        ]
+      },
+      "legal": {
+        "US": "Research chemical",
+        "RU": "Available as nootropic supplement"
+      },
+      "safety": "Excellent - very well tolerated",
+      "half_life": "Variable with nasal"
+    },
+    "Epithalon": {
+      "name": "Epithalon",
+      "full_name": "Epithalon (Epitalon)",
+      "category": "anti_aging_rejuvenation",
+      "chemical": {
+        "type": "Tetrapeptide",
+        "sequence": "Ala-Glu-Asp-Gly",
+        "length": 4,
+        "origin": "Synthetic pineal gland peptide",
+        "developer": "Prof. Vladimir Khavinson (Russia)",
+        "year_discovered": "1980s"
+      },
+      "mechanism": {
+        "primary": "Telomerase activation and telomere maintenance",
+        "actions": [
+          "Stimulates telomerase activity in somatic cells",
+          "Increases telomere length (in vitro studies)",
+          "Regulates melatonin production (pineal gland)",
+          "Antioxidant effects",
+          "Modulates immune function"
+        ],
+        "caveat": "Human telomere elongation data limited; animal studies show lifespan extension"
+      },
+      "benefits": [
+        "Anti-aging and longevity support",
+        "Telomere maintenance (potential)",
+        "Pineal gland regulation",
+        "Skin and hair health improvement",
+        "Potential life extension (research stage)"
+      ],
+      "administration": {
+        "routes": [
+          "Subcutaneous injection",
+          "Intranasal"
+        ],
+        "cycle_protocols": {
+          "protocol_A": "10 days on, 20 days off, 30 days on, 60 days off",
+          "protocol_B": "Annual maintenance: 10-20 day course",
+          "long_term": "Cycles repeated 2-3x per year"
+        }
+      },
+      "dosage": {
+        "male": {
+          "standard": {
+            "dose": "3 mg daily",
+            "duration": "10 consecutive days",
+            "cycle": "10d on / 20d off, repeat 2-3x yearly"
+          }
+        },
+        "female": {
+          "standard": {
+            "dose": "2-3 mg daily",
+            "duration": "10 days",
+            "cycle": "Same as male"
+          }
+        }
+      },
+      "side_effects": {
+        "common": [],
+        "rare": [
+          "Mild transient fatigue",
+          "Headache"
+        ],
+        "contraindications": [
+          "Known hypersensitivity"
+        ]
+      },
+      "stacks": [
+        {
+          "combo": "Epithalon + Thymosin Alpha-1",
+          "synergy": "Telomere + immune system support"
+        }
+      ],
+      "legal": {
+        "US": "Research chemical",
+        "RU": "Available as dietary supplement in Russia"
+      },
+      "safety": "Very good - Decades of Russian research with excellent safety profile",
+      "half_life": "~12 hours",
+      "notes": "One of most-studied Russian anti-aging peptides"
+    },
+    "Thymosin Alpha-1": {
+      "name": "Thymosin Alpha-1",
+      "full_name": "Thymosin Alpha-1 (Ta1)",
+      "category": "anti_aging_rejuvenation",
+      "subcategories": [
+        "immune_modulation"
+      ],
+      "chemical": {
+        "type": "28-amino acid peptide",
+        "sequence": "Ac-Ser-Asp-Gly-Ala-Glu-Val-Glu-Thr-Asp-Glu-Ala-Glu-Val-Glu-Thr-Asp-Asp-Ala-Glu-Pro-Thr-Gln-Asp-Glu-Arg-Gln-Ile-Lys-NH2",
+        "origin": "Thymic hormone",
+        "function": "Immunomodulator"
+      },
+      "mechanism": {
+        "primary": "Potent immunomodulatory peptide",
+        "actions": [
+          "Enhances T-cell function and maturation",
+          "Balances Th1/Th2 immune response",
+          "Stimulates dendritic cell activity",
+          "Increases antibody production",
+          "Antiviral and antibacterial properties",
+          "Cancer immunotherapy support"
+        ],
+        "pituitary_independent": "Does not stimulate GH or other pituitary hormones"
+      },
+      "benefits": [
+        "Immune system support and enhancement",
+        "Viral infection treatment (hepatitis B/C, HPV)",
+        "Cancer therapy adjunct (immunotherapy)",
+        "Chronic fatigue syndrome support",
+        "Anti-aging immune modulation"
+      ],
+      "administration": {
+        "routes": [
+          "Subcutaneous injection",
+          "Intramuscular injection"
+        ],
+        "frequency": "Typically 1-2x weekly",
+        "pre_filled_syringes": "Common (1.6 mg doses)"
+      },
+      "dosage": {
+        "male": {
+          "standard": {
+            "dose": "1.6 mg",
+            "frequency": "2x weekly"
+          }
+        },
+        "female": {
+          "standard": {
+            "dose": "1.6 mg",
+            "frequency": "1-2x weekly"
+          }
+        }
+      },
+      "side_effects": {
+        "common": [],
+        "rare": [
+          "Mild injection site discomfort"
+        ],
+        "infrequent": [
+          "Fever, malaise (high dose)"
+        ]
+      },
+      "stacks": [
+        {
+          "combo": "Thymosin Alpha-1 + Epithalon",
+          "synergy": "Immune + telomere anti-aging combo"
+        }
+      ],
+      "legal": {
+        "US": "FDA APPROVED (Zadaxin) for chronic hepatitis B and C",
+        "EU": "Approved in some countries",
+        "status": "Prescription drug in many countries; available OTC in select markets"
+      },
+      "safety": "Excellent - Very well-tolerated even at high doses",
+      "half_life": "Variable"
+    },
+    "Thymosin Beta-4": {
+      "name": "Thymosin Beta-4",
+      "full_name": "Natural Thymosin Beta-4",
+      "category": "anti_aging_rejuvenation",
+      "chemical": {
+        "type": "43-amino acid polypeptide",
+        "sequence": "Same as TB-500",
+        "note": "TB-500 is the preferred synthetic, peptide-stable analog; natural Thymosin Beta-4 less stable and not commonly used"
+      },
+      "mechanism": {
+        "primary": "Same actin-binding and angiogenic mechanisms as TB-500"
+      },
+      "benefits": [
+        "Same as TB-500"
+      ],
+      "administration": "TB-500 is practical; natural version rarely used",
+      "legal": "Research chemical",
+      "notes": "In practice TB-500 is used - more stable"
+    },
+    "PT-141": {
+      "name": "PT-141",
+      "full_name": "Bremelanotide (formerly PT-141)",
+      "category": "sexual_health",
+      "chemical": {
+        "type": "Melanocortin-4 receptor agonist",
+        "origin": "Derived from Melanotan II research (Paladin Labs)",
+        "year_approved": 2019,
+        "notes": "Non-pigmenting melanocortin analog"
+      },
+      "mechanism": {
+        "primary": "Selective MC4R agonist acting centrally in hypothalamus",
+        "actions": [
+          "Activates sexual arousal pathways in CNS",
+          "Increases sexual desire and motivation",
+          "Enhances arousal response"
+        ],
+        "vs_Melanotan": "Does not activate peripheral MC1R - does NOT cause skin tanning"
+      },
+      "benefits": [
+        "FDA-approved for Hypoactive Sexual Desire Disorder (HSDD) in premenopausal women",
+        "Increases sexual desire and arousal",
+        "Improves sexual satisfaction",
+        "Works for both men (off-label) and women (approved)"
+      ],
+      "administration": {
+        "routes": [
+          "Subcutaneous injection (preferred)",
+          "Intranasal spray (less common)"
+        ],
+        "timing": "As needed 45-60 minutes before sexual activity OR scheduled twice weekly",
+        "on_demand_max": "1 dose per 24 hours, max 8 doses per month"
+      },
+      "dosage": {
+        "male": {
+          "as_needed": {
+            "dose": "1-2 mg subcutaneously",
+            "timing": "45-60 min before activity"
+          },
+          "scheduled": {
+            "dose": "1.75 mg",
+            "frequency": "2x weekly"
+          }
+        },
+        "female": {
+          "prescription": {
+            "dose": "1.75 mg",
+            "timing": "As needed 45 min before activity",
+            "max": "8 doses/month"
+          }
+        }
+      },
+      "side_effects": {
+        "common": [
+          "Flushing/warm sensation",
+          "Nausea (dose-limiting)"
+        ],
+        "dose_related": [
+          "Headache",
+          "Fatigue"
+        ],
+        "management": [
+          "Start lower dose (0.75-1 mg)",
+          "Take with small meal to reduce nausea"
+        ],
+        "monitoring": [
+          "Blood pressure check (may elevate briefly)"
+        ]
+      },
+      "stacks": [
+        {
+          "combo": "PT-141 + Oxytocin",
+          "notes": "Experimental - enhances bonding effects"
+        }
+      ],
+      "legal": {
+        "US": "FDA APPROVED (Vyleesi) for HSDD in premenopausal women - prescription only",
+        "status": "Prescription medication",
+        "male_use": "Off-label for men"
+      },
+      "safety": "Good - nausea main limiting factor; monitor BP",
+      "half_life": "~2.5-3 hours",
+      "prescription": "Yes",
+      "note": "Only FDA-approved sexual dysfunction peptide"
+    },
+    "Melanotan II": {
+      "name": "Melanotan II",
+      "full_name": "Melanotan II (MT-II)",
+      "category": "sexual_health",
+      "chemical": {
+        "type": "Non-selective melanocortin receptor agonist",
+        "sequence": "Ac-Ser-Asp-Ala-Ala-Arg-Asp-Glu-Phe-Lys-Arg-Glu-Leu-Met-Glu-Trp-Glu-Lys-Arg-Glu-Ala-Gly-Lys-Lys-Arg-Arg-Pro-Val-AM",
+        "origin": "Developed by Paladin Labs for skin cancer prevention research",
+        "year_discovered": "1990s"
+      },
+      "mechanism": {
+        "primary": "Non-selective MC1R/MC3R/MC4R agonist",
+        "targets": {
+          "MC1R": "Skin pigmentation (melanogenesis)",
+          "MC3R": "Energy homeostasis/appetite",
+          "MC4R": "Sexual function/nootropic",
+          "MC5R": "Exocrine function"
+        },
+        "vs_PT141": "Peripherally active - causes skin darkening; PT-141 is CNS-selective"
+      },
+      "benefits": [
+        "Increased libido and erectile function",
+        "Skin tanning (UV-independent)",
+        "Appetite suppression (some)",
+        "Enhanced sexual arousal and performance"
+      ],
+      "administration": {
+        "routes": [
+          "Subcutaneous injection"
+        ],
+        "tanning_loading_dose": "10-15 mg cumulative across loading phase",
+        "injection_sites": [
+          "Abdomen",
+          "Thigh"
+        ]
+      },
+      "dosage": {
+        "male": {
+          "libido": {
+            "dose": "1-2 mg",
+            "frequency": "2-3x weekly",
+            "notes": "Start 0.5 mg"
+          },
+          "tanning": {
+            "loading": "1 mg daily until desired color (usually 10-15 doses)",
+            "maintenance": "0.5-1 mg weekly"
+          }
+        },
+        "female": {
+          "libido": {
+            "dose": "0.5-1 mg 2-3x weekly",
+            "note": "More sensitive to effects"
+          },
+          "tanning": {
+            "loading": "0.5-1 mg daily"
+          }
+        }
+      },
+      "side_effects": {
+        "common": [
+          "Flushing",
+          "Nausea",
+          "Increased libido (desired)",
+          "Mild appetite suppression"
+        ],
+        "pigmentation": [
+          "Skin darkening (PERMANENT - all skin including moles darkens)",
+          "Moles/freckles darken - MUST monitor"
+        ],
+        "management": [
+          "Eat before injection to reduce nausea",
+          "Start very low dose (0.25-0.5 mg) and titrate slowly"
+        ]
+      },
+      "monitoring_requirements": "Monthly skin checks mandatory - Melanotan II increases atypical mole activity and melanoma risk",
+      "stacks": [
+        {
+          "combo": "Melanotan II + PT-141",
+          "note": "Not recommended - conflicting melanocortin effects"
+        }
+      ],
+      "legal": {
+        "US": "Research chemical - NOT FDA approved",
+        "EU": "Banned or restricted in multiple countries",
+        "notes": "Widely available via grey market but safety concerns"
+      },
+      "safety": "⚠ SERIOUS SAFETY CONCERNS - Darkens ALL pigmentation including moles; increases melanoma risk; long-term safety unknown; HAS caused deaths (cardiac events in predisposed)",
+      "caution_level": "HIGH - Not recommended for casual use",
+      "half_life": "Variable"
+    },
+    "GHRP-2": {
+      "name": "GHRP-2",
+      "full_name": "Growth Hormone-Releasing Peptide-2",
+      "category": "muscle_growth_performance",
+      "chemical": {
+        "type": "Growth Hormone-Releasing Peptide (GHRP)",
+        "sequence": "His-D-Trp-Ala-Trp-D-Phe-Lys-NH2",
+        "length": 6,
+        "origin": "First generation GHRP",
+        "notes": "Older compound, less selective than newer options"
+      },
+      "mechanism": {
+        "primary": "Ghrelin receptor agonist stimulating GH release",
+        "profile": {
+          "GH_release": "Strong",
+          "appetite": "Strong increase (ghrelin effect)",
+          "cortisol": "Moderate elevation",
+          "prolactin": "Moderate elevation"
+        },
+        "selectivity": "Lower selectivity - affects multiple pathways"
+      },
+      "benefits": [
+        "Rapid GH/IGF-1 spike",
+        "Muscle growth (with adequate calories)",
+        "Fat loss",
+        "Strong appetite stimulation (beneficial for bulking)"
+      ],
+      "administration": {
+        "routes": [
+          "Subcutaneous injection"
+        ],
+        "timing": "Fast morning + pre-bed (+ post-workout optional)",
+        "storage": "Refrigerated"
+      },
+      "dosage": {
+        "male": {
+          "standard": "100-200 mcg 2-3x daily",
+          "timing": "AM fasted + pre-bed (+ post-workout)"
+        },
+        "female": {
+          "standard": "50-100 mcg 2-3x daily",
+          "note": "More sensitive to hormone effects"
+        }
+      },
+      "side_effects": {
+        "common": [
+          "Strong hunger spikes",
+          "Mild water retention"
+        ],
+        "hormonal": [
+          "Moderate cortisol increase (monitor if long-term)",
+          "Moderate prolactin increase"
+        ],
+        "high_dose": [
+          "Numbness and tingling (paresthesia)",
+          "Headache"
+        ]
+      },
+      "stacks": [
+        {
+          "combo": "GHRP-2 + GHRH analog",
+          "notes": "Synergistic but increases cortisol/prolactin more than Ipamorelin stacks"
+        }
+      ],
+      "legal": {
+        "US": "Research chemical"
+      },
+      "safety": "Moderate - hormonal side effects higher than Ipamorelin",
+      "half_life": "~2 hours",
+      "note": "Older GHRP; Ipamorelin generally preferred due to better side effect profile"
+    },
+    "GHRP-6": {
+      "name": "GHRP-6",
+      "full_name": "Growth Hormone-Releasing Peptide-6",
+      "category": "muscle_growth_performance",
+      "chemical": {
+        "type": "Growth Hormone-Releasing Peptide (GHRP)",
+        "origin": "Second generation GHRP (after GHRP-2)",
+        "potency": "Strongest GH release among GHRPs"
+      },
+      "mechanism": {
+        "primary": "Very potent ghrelin receptor agonist",
+        "profile": {
+          "GH_release": "Strongest among GHRPs",
+          "appetite": "Extreme hunger (strongest ghrelin effect)",
+          "cortisol": "Significant elevation",
+          "prolactin": "Significant elevation"
+        },
+        "warning": "Least selective GHRP - highest side effect burden"
+      },
+      "benefits": [
+        "Most powerful natural GH pulse stimulator",
+        "Rapid muscle gain (with adequate caloric intake)",
+        "Excellent for bulking cycles",
+        "Strong fat loss (with diet)"
+      ],
+      "administration": {
+        "routes": [
+          "Subcutaneous injection"
+        ],
+        "timing": "Never late in day (causes insomnia)",
+        "injection_sites": [
+          "Abdomen",
+          "Thigh"
+        ]
+      },
+      "dosage": {
+        "male": {
+          "beginner": "50-100 mcg 2x daily (start low!)",
+          "standard": "100-150 mcg 2-3x daily",
+          "max": "200 mcg per dose (higher increases side effects significantly)"
+        },
+        "female": {
+          "beginner": "25-50 mcg 2x daily",
+          "standard": "50-100 mcg 2x daily",
+          "note": "Very sensitive - start at lowest doses"
+        }
+      },
+      "side_effects": {
+        "common": [
+          "Extreme hunger (strong ghrelin effect)",
+          "Significant water retention (ankles, face)"
+        ],
+        "hormonal": [
+          "Moderate-severe cortisol elevation",
+          "Moderate-severe prolactin elevation",
+          "May affect sleep if dosed late"
+        ],
+        "neurological": [
+          "Numbness and tingling (dose-dependent)"
+        ],
+        "management": [
+          "Limit cycles to 8-12 weeks MAX",
+          "Post-cycle therapy recommended to normalize cortisol/prolactin",
+          "Never dose within 4 hours of bedtime",
+          "Monitor prolactin if symptoms (low libido, gyno)"
+        ]
+      },
+      "stacks": [
+        {
+          "combo": "GHRP-6 + CJC-1295",
+          "warning": "Powerful but highest cortisol/prolactin risk - only for experienced users",
+          "alternative": "Use Ipamorelin instead of GHRP-6 for lower side effects"
+        }
+      ],
+      "legal": {
+        "US": "Research chemical"
+      },
+      "safety": "Moderate - Strongest side effect profile among GHRPs; caution advised",
+      "half_life": "~2 hours",
+      "caution": "Most likely to cause side effects among common GHRPs"
+    },
+    "Hexarelin": {
+      "name": "Hexarelin",
+      "full_name": "Hexarelin (Hexarelin Acetate)",
+      "category": "muscle_growth_performance",
+      "chemical": {
+        "type": "Growth Hormone-Releasing Peptide (GHRP)",
+        "sequence": "His-D-2Me-Trp-Ala-Trp-D-Phe-Lys-NH2",
+        "modifications": "2-methyl-tryptophan (2-Me-Trp) increases potency and resistance to degradation",
+        "origin": "Third generation GHRP"
+      },
+      "mechanism": {
+        "primary": "Very potent ghrelin receptor agonist",
+        "potency": "Among the strongest GH releasers",
+        "profile": {
+          "GH_release": "Very strong",
+          "appetite": "Moderate increase",
+          "cortisol": "Moderate increase (less than GHRP-6)",
+          "prolactin": "Moderate elevation"
+        }
+      },
+      "benefits": [
+        "Strong anabolic effects",
+        "Muscle growth and strength gains",
+        "Fat loss",
+        "Cardioprotective effects (research)"
+      ],
+      "administration": {
+        "routes": [
+          "Subcutaneous injection"
+        ],
+        "timing": "AM fasted + pre-bed",
+        "note": "Can desensitize GHRH receptors with prolonged use"
+      },
+      "dosage": {
+        "male": {
+          "standard": "100-200 mcg 2-3x daily",
+          "max": "300 mcg dose"
+        },
+        "female": {
+          "standard": "50-100 mcg 2x daily",
+          "note": "More sensitive"
+        }
+      },
+      "side_effects": {
+        "common": [
+          "Moderate hunger increase",
+          "Mild water retention"
+        ],
+        "hormonal": [
+          "Moderate cortisol (less than GHRP-6)",
+          "Elevated prolactin (moderate)"
+        ],
+        "caution": [
+          "Can desensitize GHRH receptors with prolonged continuous use",
+          "Cycle length limited to 8-10 weeks"
+        ]
+      },
+      "legal": {
+        "US": "Research chemical"
+      },
+      "safety": "Moderate - potent but monitor hormone levels",
+      "half_life": "~2 hours",
+      "note": "Rarely used compared to Ipamorelin or CJC due to less favorable side effect:benefit ratio"
+    }
+  }
+}
