@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { useUserStore } from '../store/useUserStore';
-import { colors, borderRadius, spacing } from '../utils/theme';
+import { colors, borderRadius, spacing, glassStyle } from '../utils/theme';
 import { Gender } from '../types';
 
 export function GenderToggle() {
@@ -15,7 +15,7 @@ export function GenderToggle() {
   ];
 
   return (
-    <View style={[styles.container, { backgroundColor: c.surface }]}>
+    <View style={[glassStyle[darkMode ? 'dark' : 'light'], styles.container]}>
       {options.map((opt) => (
         <TouchableOpacity
           key={opt.value}
@@ -45,14 +45,14 @@ export function GenderToggle() {
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    borderRadius: borderRadius.md,
+    borderRadius: borderRadius.lg,
     padding: 4,
   },
   option: {
     flex: 1,
     paddingVertical: spacing.sm,
     paddingHorizontal: spacing.md,
-    borderRadius: borderRadius.sm,
+    borderRadius: borderRadius.md,
     alignItems: 'center',
     borderWidth: 1,
   },

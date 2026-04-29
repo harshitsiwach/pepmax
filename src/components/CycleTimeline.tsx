@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { Cycle } from '../types';
 import { useUserStore } from '../store/useUserStore';
-import { colors, borderRadius, spacing } from '../utils/theme';
+import { colors, borderRadius, spacing, glassStyle } from '../utils/theme';
 import { getDaysUntilCycleEnd } from '../utils/cycleValidator';
 import { format } from 'date-fns';
 
@@ -25,7 +25,7 @@ export function CycleTimeline({ cycle }: Props) {
   );
 
   return (
-    <View style={[styles.container, { backgroundColor: c.surface, borderColor: c.border }]}>
+    <View style={[glassStyle[darkMode ? 'dark' : 'light'], styles.container]}>
       <View style={styles.header}>
         <Text style={[styles.title, { color: c.text }]}>{cycle.name}</Text>
         <View style={[styles.badge, { backgroundColor: c.primary + '20' }]}>
@@ -34,7 +34,7 @@ export function CycleTimeline({ cycle }: Props) {
       </View>
 
       <View style={styles.progressContainer}>
-        <View style={[styles.progressBar, { backgroundColor: c.surfaceElevated }]}>
+        <View style={[styles.progressBar, { backgroundColor: darkMode ? 'rgba(50,50,60,0.5)' : 'rgba(230,230,235,0.8)' }]}>
           <View
             style={[
               styles.progressFill,
@@ -76,8 +76,7 @@ export function CycleTimeline({ cycle }: Props) {
 const styles = StyleSheet.create({
   container: {
     padding: spacing.md,
-    borderRadius: borderRadius.md,
-    borderWidth: 2,
+    borderRadius: borderRadius.lg,
   },
   header: {
     flexDirection: 'row',

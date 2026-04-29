@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { Goal } from '../types';
 import { useUserStore } from '../store/useUserStore';
-import { colors, borderRadius, spacing } from '../utils/theme';
+import { colors, borderRadius, spacing, glassStyle } from '../utils/theme';
 
 interface Props {
   goal: Goal;
@@ -15,7 +15,10 @@ export function GoalCard({ goal, onPress }: Props) {
 
   return (
     <TouchableOpacity
-      style={[styles.card, { backgroundColor: c.surface, borderColor: c.border }]}
+      style={[
+        glassStyle[darkMode ? 'dark' : 'light'],
+        styles.card,
+      ]}
       onPress={onPress}
       activeOpacity={0.7}
     >
@@ -32,8 +35,7 @@ const styles = StyleSheet.create({
   card: {
     flex: 1,
     padding: spacing.md,
-    borderRadius: borderRadius.md,
-    borderWidth: 2,
+    borderRadius: borderRadius.lg,
     alignItems: 'center',
     justifyContent: 'center',
     minHeight: 120,

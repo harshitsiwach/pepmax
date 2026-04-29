@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { Peptide } from '../types';
 import { useUserStore } from '../store/useUserStore';
-import { colors, borderRadius, spacing, typography } from '../utils/theme';
+import { colors, borderRadius, spacing, glassStyle } from '../utils/theme';
 import { getSafetyRatingLabel, getSafetyRatingColor } from '../utils/db';
 import { isPeptideLegalInCountry, getLegalStatusLabel, getLegalStatusColor } from '../utils/legalFilter';
 
@@ -14,6 +14,9 @@ interface Props {
 export function PeptideCard({ peptide, onPress }: Props) {
   const { gender, country, darkMode } = useUserStore();
   const c = colors[darkMode ? 'dark' : 'light'];
+  const isExperimental = peptide.category === 'Experimental' || 
+    peptide.evidence_level === 'animal' || 
+    peptide.evidence_level === 'anecdotal';
 
   const dosage = gender === 'male' ? peptide.dosage.male : peptide.dosage.female;
   const safetyLabel = getSafetyRatingLabel(peptide.safety_rating);
@@ -23,10 +26,22 @@ export function PeptideCard({ peptide, onPress }: Props) {
 
   return (
     <TouchableOpacity
-      style={[styles.card, { backgroundColor: c.surface, borderColor: c.border }]}
+      style={[
+        glassStyle[darkMode ? 'dark' : 'light'],
+        styles.card,
+      ]}
       onPress={onPress}
       activeOpacity={0.7}
     >
+      {isExperimental && (
+        <View style={[styles.warningBanner, { backgroundColor: c.warning + '15' }]}>
+          <Text style={styles.warningIcon}>⚠️</Text>
+          <Text style={[styles.warningText, { color: c.warning }]}>
+            Experimental - Try at your own risk
+          </Text>
+        </View>
+      )}
+
       <View style={styles.header}>
         <Text style={[styles.name, { color: c.text }]}>{peptide.name}</Text>
         <View style={[styles.safetyBadge, { backgroundColor: safetyColor + '20' }]}>
@@ -59,9 +74,23 @@ export function PeptideCard({ peptide, onPress }: Props) {
 const styles = StyleSheet.create({
   card: {
     padding: spacing.md,
-    borderRadius: borderRadius.md,
-    borderWidth: 2,
     marginBottom: spacing.md,
+  },
+  warningBanner: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: spacing.xs,
+    paddingHorizontal: spacing.sm,
+    borderRadius: borderRadius.sm,
+    marginBottom: spacing.sm,
+  },
+  warningIcon: {
+    fontSize: 12,
+    marginRight: spacing.xs,
+  },
+  warningText: {
+    fontSize: 11,
+    fontWeight: '600',
   },
   header: {
     flexDirection: 'row',
